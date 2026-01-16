@@ -1,0 +1,161 @@
+.category {
+  flex:1;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .categories {
+    flex-direction: column;
+  }
+  .category {
+    width: 100%;
+  }
+
+  .search-box, .post-btn, .nav-item, .lang-select {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .box {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+
+  .box h2, .box ul {
+    padding-left: 0;
+  }
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap:10px;
+  padding: 20px;
+  background: rgb(198, 6, 73);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  color: rgb(110, 226, 43);
+}
+
+.logo span {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 4px;
+}
+.search-box {
+  flex: 0;
+  padding: 5px;
+}
+.post-btn {
+  padding: 5px 10px;
+  color:green;
+  cursor:pointer;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 10px;
+  background: rgba(209, 5, 22, 0.071);
+  cursor: pointer;
+}
+
+.nav-item {
+  margin-left: auto;
+  padding: 3px;
+  font-size: 14px;
+}
+
+.lang-select {
+  margin-left:auto;
+  padding:3px;
+  font-size: 14px;
+}
+.side-select {
+  display: block;
+  font-size: 13px;
+  margin-top:10px;
+  margin-bottom: 4px;
+}
+
+.side-select{
+  width:20%;
+  padding: 4px;
+  font-size: 14px;
+}
+.categories {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15%;
+}
+.box h2,
+.box ul {
+  padding-left: 40%;
+  cursor: pointer;
+}
+
+.box {
+  flex: 0 0 220px;
+  border:1px;
+  align-items: center;
+
+}
+.box ul{
+  text-align: center;
+}
+.box ul li {
+  list-style: none;
+  text-align: center;
+}
+.box img {
+  width: 100%;
+  height: 120px;
+  margin-left: 50px;
+}
+.box img:hover{
+  transform: scale(1.15);
+  opacity: 0.8px;
+  cursor: pointer;
+}
+.button {
+  padding: 6px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(44, 43, 43);
+
+}
+
+.fonter-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10%;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #2727e8;
+}
+
+.fonter-links {
+  text-decoration: underline;
+}
+ 
